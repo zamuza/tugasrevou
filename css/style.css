@@ -1,0 +1,90 @@
+
+header {
+    background-color: #512881;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #35155D;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #4477ce;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #512881;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #8cabff;
+    margin-top: 10px; 
+}
+
+button:hover {
+    background-color: #4477ce;
+    margin-top: 10px; 
+
+}
+
+button:active {
+    transform: translateY(1px);
+    background-color: #35155D;
+    margin-top: 10px; 
+}
+
+.result-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #4477ce;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.result-section h2 {
+    font-size: 24px;
+    color: #35155D;
+}
+
+#hasil-luas, #hasil-keliling {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#hasil-luas::before {
+    font-weight: bold;
+}
+
+#hasil-keliling::before {
+    font-weight: bold;
+}
